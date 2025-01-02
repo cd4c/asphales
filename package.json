@@ -1,0 +1,26 @@
+{
+  "name": "asphales",
+  "displayName": "asphales",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "d4c",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cd4c/asphales"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "asphales",
+        "uiTheme": "vs-dark",
+        "path": "./themes/asphales-color-theme.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,221 @@
+{
+	"name": "asphales",
+	"colors": {
+		"editor.background": "#18181b",
+		"editor.foreground": "#dcdccc",
+		"activityBarBadge.background": "#ffaf00",
+		"sideBarTitle.foreground": "#dcdccc" 
+	},
+	"tokenColors": [
+		{
+			"name": "Comentarios",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#acd2ac"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#dcdccc"
+			}
+		},
+		{
+			"name": "Booleans, constantes, etc.",
+			"scope": [
+				"constant.language.boolean",
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#ffa263"
+			}
+		},
+		{
+			"name": "Números",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#8cd0d3"
+			}
+		},
+		{
+			"name": "Colores CSS u otros",
+			"scope": [
+				"constant.other.color"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Inválido / Errores",
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#f0616d"
+			}
+		},
+		{
+			"name": "Keywords, Storage (Palabras reservadas)",
+			"scope": [
+				"keyword",
+				"storage.type",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#ffd787"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"keyword.control",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#ffa263"
+			}
+		},
+		{
+			"name": "Tags",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.sgml",
+				"markup.deleted.git_gutter"
+			],
+			"settings": {
+				"foreground": "#f2838c"
+			}
+		},
+		{
+			"name": "Funciones, métodos",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#8cd0d3"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"constant.other.key",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"foreground": "#e8d3ed"
+			}
+		},
+		{
+			"name": "Clases, tipos",
+			"scope": [
+				"entity.name.type",
+				"support.class",
+				"support.other.namespace",
+				"entity.other.inherited-class",
+				"meta.use.php",
+				"markup.changed.git_gutter"
+			],
+			"settings": {
+				"foreground": "#ffa263"
+			}
+		},
+		{
+			"name": "Warnings",
+			"scope": [
+				"markup.warning",
+				"keyword.operator.warning",
+				"storage.modifier.package",
+				"meta.directive.warning"
+			],
+			"settings": {
+				"foreground": "#ffa263"
+			}
+		},
+		{
+			"name": "Información",
+			"scope": [
+			],
+			"settings": {
+				"foreground": "#8cd0d3"
+			}
+		},
+		{
+			"name": "Hint",
+			"scope": [
+			],
+			"settings": {
+				"foreground": "#9ece9e"
+			}
+		},
+		{
+			"name": "Operadores especiales",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#ffaf00"
+			}
+		},
+		{
+			"name": "Otros (ajusta según tus gustos)",
+			"scope": [
+				"support.other.variable",
+				"string.other.link",
+				"meta.block variable.other"
+			],
+			"settings": {
+				"foreground": "#dcdccc"
+			}
+		},
+		{
+			"name": "Markdown - Títulos",
+			"scope": [
+				"markup.heading.markdown",
+				"markup.heading | markup.heading entity.name"
+			],
+			"settings": {
+				"foreground": "#ffd787",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown - Citas",
+			"scope": [
+				"markup.quote"
+			],
+			"settings": {
+				"foreground": "#acd2ac",
+				"fontStyle": "italic"
+			}
+		}
+	]
+}
