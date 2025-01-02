@@ -2,8 +2,9 @@
   "name": "asphales",
   "displayName": "asphales",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "d4c",
+  "icon": "assets/logo.webp",
   "engines": {
     "vscode": "^1.96.0"
   },
