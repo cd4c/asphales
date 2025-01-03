@@ -1,7 +1,7 @@
 {
 	"name": "asphales",
 	"colors": {
-		"editor.background": "#18181b",
+		"editor.background": "#161a18",
 		"editor.foreground": "#dcdccc",
 		"activityBarBadge.background": "#ffaf00",
 		"sideBarTitle.foreground": "#dcdccc" 
@@ -44,7 +44,7 @@
 				"constant.numeric"
 			],
 			"settings": {
-				"foreground": "#8cd0d3"
+				"foreground": "#b3dadc"
 			}
 		},
 		{
@@ -74,6 +74,7 @@
 				"storage.modifier"
 			],
 			"settings": {
+				"fontStyle": "italic",
 				"foreground": "#ffd787"
 			}
 		},
@@ -93,7 +94,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#ffa263"
+				"foreground": "#d6a280"
 			}
 		},
 		{
@@ -104,7 +105,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f2838c"
+				"foreground": "#d6a280"
 			}
 		},
 		{
@@ -117,7 +118,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#8cd0d3"
+				"foreground": "#dbc7a0"
 			}
 		},
 		{
@@ -131,7 +132,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#e8d3ed"
+				"foreground": "#efdfd0"
 			}
 		},
 		{
@@ -182,7 +183,7 @@
 				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#ffaf00"
+				"foreground": "#d6a280"
 			}
 		},
 		{
