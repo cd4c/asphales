@@ -1,10 +1,16 @@
 {
 	"name": "asphales",
 	"colors": {
-		"editor.background": "#161a18",
+		"editor.background": "#1f1f1f",
 		"editor.foreground": "#dcdccc",
+		"activityBar.background": "#1f1f1f",
 		"activityBarBadge.background": "#ffaf00",
-		"sideBarTitle.foreground": "#dcdccc" 
+		"sideBar.background": "#1f1f1f",
+		"sideBarTitle.foreground": "#dcdccc",
+		"titleBar.activeBackground": "#1f1f1f",
+		"titleBar.inactiveBackground": "#1f1f1f",
+		"titleBar.activeForeground": "#dcdccc",
+		"titleBar.inactiveForeground": "#dcdccc"
 	},
 	"tokenColors": [
 		{
